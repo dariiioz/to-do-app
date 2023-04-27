@@ -43,8 +43,8 @@ function App() {
     };
 
     return (
-        <div className="h-screen bg-gray-900 pt-40">
-            <h1 className="text-center pt-36 text-white animate__fadeInDownBig animate__animated">
+        <div className="h-screen bg-gray-900 pt-32">
+            <h1 className="text-center pt-32 text-white animate__fadeInDownBig animate__animated">
                 To-Do App
             </h1>
             <h2 className="text-center sm:text-lg text-white animate__animated animate__fadeIn">
