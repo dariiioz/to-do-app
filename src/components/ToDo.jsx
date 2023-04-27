@@ -9,7 +9,7 @@ const ToDo = ({ name, id, completed, removeTodo, completeTodo }) => {
     }
 
     return (
-        <div className="2xl:mr-96 2xl:ml-96 mt-4 lg:mr-80 lg:ml-80 sm:ml-32 sm:mr-32 mr-10 ml-10 animate__slideInUp animate__animated bg-gray-800">
+        <div className="2xl:mr-96 2xl:ml-96 mt-4 lg:mr-80 lg:ml-80 sm:ml-32 sm:mr-32 mr-10 ml-10 animate__slideInUp animate__animated">
             <label
                 htmlFor="default-search"
                 className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
