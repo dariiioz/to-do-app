@@ -19,7 +19,7 @@ To-Do App is a simple app using ReactJS & TailwindCSS. Data are stocked in Local
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/26320684/234520715-1f28deba-911c-49aa-917e-cb91faadaf9e.png)
+![image](https://user-images.githubusercontent.com/26320684/234826878-38da26cb-93ca-4b2f-a103-2694b0f44f20.png)
 
 
 ## 🔗 Links
