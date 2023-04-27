@@ -1,14 +1,15 @@
 import React from "react";
+import 'animate.css';
+
 const ToDo = ({ name, id, completed, removeTodo, completeTodo }) => {
     let style_input =
-        "block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500";
+        " block w-full p-4 pl-10 text-sm text-gray-900 border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500";
     if (completed) {
-        style_input =
-            "block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 line-through";
+        style_input = "block w-full p-4 pl-10 text-sm text-gray-900 border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 line-through";
     }
 
     return (
-        <div className="2xl:mr-96 2xl:ml-96 mt-4 lg:mr-80 lg:ml-80 sm:ml-32 sm:mr-32 mr-10 ml-10">
+        <div className="2xl:mr-96 2xl:ml-96 mt-4 lg:mr-80 lg:ml-80 sm:ml-32 sm:mr-32 mr-10 ml-10 animate__slideInUp animate__animated">
             <label
                 htmlFor="default-search"
                 className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
