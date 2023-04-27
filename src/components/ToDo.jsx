@@ -5,7 +5,7 @@ const ToDo = ({ name, id, completed, removeTodo, completeTodo }) => {
     let style_input =
         " block w-full p-4 pl-10 text-sm text-gray-900 border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500";
     if (completed) {
-        style_input = "block w-full p-4 pl-10 text-sm text-gray-900 border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 line-through";
+        style_input = "block w-full p-4 pl-10 text-sm text-gray-900 border rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-gray-800 border-gray-500 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 line-through";
     }
 
     return (
